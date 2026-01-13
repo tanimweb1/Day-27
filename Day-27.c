@@ -23,9 +23,17 @@ printf("product %d\n",product);
 
 
 
+//ques 2
+int l,w,area,para;
+scanf("%d%d",&l,&w);
 
+area = l*w;
+para = 2*(l+w);
+
+printf("area = %d\nparamteer = %d",area,para);
 
 
     return 0;
 
 }
+
