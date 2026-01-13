@@ -53,12 +53,25 @@ scanf("%f",&c);
 
 f = (c*9/5)+32;
 printf("Farhenite is %f",f);
+
+
+    //ques 4 
+
+int a,b;
+scanf("%d%d",&a,&b);
+
+a= a+b;
+b = a-b;
+a = a-b;
+
+printf("a is %d\nb is %d", a,b);
     
 
 
     return 0;
 
 }
+
 
 
 
