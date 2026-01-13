@@ -65,12 +65,26 @@ b = a-b;
 a = a-b;
 
 printf("a is %d\nb is %d", a,b);
+
+
+
+
+
+//ques 6
+int n,squre,cube;
+scanf("%d",&n);
+
+squre = n*n;
+cube = n*n*n;
+printf("squre is %d\nCube is %d", squre,cube);
+
     
 
 
     return 0;
 
 }
+
 
 
 
