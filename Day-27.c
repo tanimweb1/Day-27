@@ -118,11 +118,29 @@ for(int i = 1; i<=10; i++){
 
 }
 
+
+
+
+// ques 12
+
+int n,reminder, sum = 0;
+printf("Enter a 3 digit number : ");
+scanf("%d",&n);
+
+while(n!=0){
+    reminder = n%10;
+    sum = sum + reminder;
+    n = n/10;
+}
+
+printf("Sum of digit is %d", sum);
+    
     
 
     return 0;
 
 }
+
 
 
 
