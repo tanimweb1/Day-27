@@ -104,11 +104,26 @@ parcentage = total/500*100;
 printf("Total is %f\nParcentage is %f",total,parcentage);
 
 
+
+
+    
+//ques 9
+int n;
+printf("Enter the number : ");
+scanf("%d",&n);
+for(int i = 1; i<=10; i++){
+
+    printf("%d * %d = %d\n", n,i,n*i);
+    
+
+}
+
     
 
     return 0;
 
 }
+
 
 
 
