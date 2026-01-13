@@ -41,11 +41,24 @@ scanf("%f%f%f",&a,&b,&c);
 
 si = (a*b*c)/100;
 printf("Simple interest is %f",si);
+
+
+
+
+
+    //ques 3
+
+float c,f;
+scanf("%f",&c);
+
+f = (c*9/5)+32;
+printf("Farhenite is %f",f);
     
 
 
     return 0;
 
 }
+
 
 
