@@ -78,12 +78,25 @@ squre = n*n;
 cube = n*n*n;
 printf("squre is %d\nCube is %d", squre,cube);
 
+
+
+
+
+    //ques 7
+int r,pai = 3.1416,area,circumference;
+scanf("%d",&r);
+area = pai * r* r;
+circumference = 2*pai *r;
+
+printf("Area is %d\nCircumference is %d", area,circumference);
+
     
 
 
     return 0;
 
 }
+
 
 
 
