@@ -93,9 +93,23 @@ printf("Area is %d\nCircumference is %d", area,circumference);
     
 
 
+//ques 8 
+
+float a,b,c,d,e,total,parcentage;
+scanf("%f%f%f%f%f",&a,&b,&c,&d,&e);
+
+total = a+b+c+d+e;
+
+parcentage = total/500*100;
+printf("Total is %f\nParcentage is %f",total,parcentage);
+
+
+    
+
     return 0;
 
 }
+
 
 
 
